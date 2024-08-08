@@ -358,11 +358,14 @@
     <!DOCTYPE html>
     <html>
     <head>
-        <h1 class="display-5 text-uppercase mb-4">HOW TO<span class="text-primary"> USE OUR SITE</span></h1>
-    
+        <title>How to Use Our Website</title>
         <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
             .container {
                 display: flex;
+                flex-wrap: wrap;
                 justify-content: space-between;
                 margin: 20px 0;
             }
@@ -372,23 +375,43 @@
                 padding: 20px;
                 width: 22%;
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                margin-bottom: 20px;
+                text-align: center;
             }
             .step h2 {
                 font-size: 18px;
                 margin-bottom: 10px;
+                color: darkblue;
             }
             .step p {
                 font-size: 14px;
                 line-height: 1.5;
+                color: orange;
+            }
+            h1 {
+                font-size: 32px;
+                color: darkblue;
+                text-align: center;
+                margin-bottom: 40px;
+            }
+            @media (max-width: 768px) {
+                .step {
+                    width: 48%;
+                }
+            }
+            @media (max-width: 480px) {
+                .step {
+                    width: 100%;
+                }
             }
         </style>
     </head>
     <body>
-        
+        <h1>How to Use Our Website</h1>
         <div class="container">
             <div class="step">
                 <h2>1. Give us A Few Mandatory Details</h2>
-                <p>ENTER YOUR DETAILS.</p>
+                <p>Enter your details.</p>
             </div>
             <div class="step">
                 <h2>2. We’ll Find Suitable COVER, COMPARE And Choose The Best Policy For You.</h2>
@@ -406,7 +429,6 @@
     </body>
     </html>
     
-
     <!-- Testimonial Start -->
     <div class="container-fluid bg-light py-6 px-5">
         <div class="text-center mx-auto mb-5" style="max-width: 600px;">
