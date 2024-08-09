@@ -82,11 +82,11 @@
                     <a href="about.html" class="nav-item nav-link">About</a>
                     <a href="service.html" class="nav-item nav-link">Service</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Motor</a>
                         <div class="dropdown-menu m-0">
-                            <a href="project.html" class="dropdown-item">Motor Insurance</a>
-                            <a href="team.html" class="dropdown-item">Household Insurance</a>
-                            <a href="testimonial.html" class="dropdown-item">Travel Insurance</a>
+                            <a href="project.html" class="dropdown-item">comprehensive</a>
+                            <a href="team.html" class="dropdown-item">Third Party</a>
+                            <a href="testimonial.html" class="dropdown-item"></a>
                             <a href="blog.html" class="dropdown-item"></a>
                             <a href="detail.html" class="dropdown-item"></a>
                         </div>
@@ -276,83 +276,6 @@
     </div>
     <!-- Appointment End -->
 
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <h1 class="display-5 text-uppercase mb-4">MOTOR<span class="text-primary"> INSURANCE</span></h1>
-                
-        <style>
-            .form-section {
-                display: none;
-            }
-        </style>
-    </head>
-    <body>
-        <h1>comprehensive Motor Insurance</h1>  
-    
-        <!-- Car Details Form -->
-        <form id="carDetailsForm" onsubmit="showYourDetailsForm(event)">
-            <fieldset>
-                <legend>Car Details</legend>
-    
-                <label for="car_value">What is the current value of your car (KShs)? *</label>
-                <input type="number" id="car_value" name="car_value" required><br><br>
-    
-                <label for="valued_recently">Has the vehicle been valued by a professional valuer in the last 18 months?</label>
-                <select id="valued_recently" name="valued_recently">
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
-                </select><br><br>
-    
-                <label for="vehicle_use">Vehicle use</label>
-                <select id="vehicle_use" name="vehicle_use">
-                    <option value="personal">Personal</option>
-                    <option value="commercial">Commercial</option>
-                </select><br><br>
-    
-                <label for="car_model">What car do you drive?</label>
-                <input type="text" id="car_model" name="car_model"><br><br>
-    
-                <label for="year_of_manufacture">Vehicle year of manufacture</label>
-                <input type="number" id="year_of_manufacture" name="year_of_manufacture"><br><br>
-    
-                <label for="cover_start_date">When do you want your cover to start?</label>
-                <input type="date" id="cover_start_date" name="cover_start_date"><br><br>
-    
-                <input type="submit" value="Next">
-            </fieldset>
-        </form>
-    
-        <!-- Your Details Form -->
-        <form id="yourDetailsForm" class="form-section" action="/submit_insurance_details" method="post">
-            <fieldset>
-                <legend>Your Details</legend>
-    
-                <label for="first_name">First Name *</label>
-                <input type="text" id="first_name" name="first_name" required><br><br>
-    
-                <label for="last_name">Last Name *</label>
-                <input type="text" id="last_name" name="last_name" required><br><br>
-    
-                <label for="mobile_number">Mobile Number *</label>
-                <input type="tel" id="mobile_number" name="mobile_number" required><br><br>
-    
-                <label for="email_address">Email Address *</label>
-                <input type="email" id="email_address" name="email_address" required><br><br>
-    
-                <input type="submit" value="View Quotes">
-            </fieldset>
-        </form>
-    
-        <script>
-            function showYourDetailsForm(event) {
-                event.preventDefault(); // Prevent form submission
-                document.getElementById('carDetailsForm').style.display = 'none';
-                document.getElementById('yourDetailsForm').style.display = 'block';
-            }
-        </script>
-    </body>
-    </html>
     
 
     <!DOCTYPE html>
@@ -502,7 +425,6 @@
                             <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
                             <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>About Us</a>
                             <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Our Services</a>
-                            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
                             <a class="text-white-50" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
                         </div>
                     </div>
@@ -512,7 +434,6 @@
                             <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Home</a>
                             <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>About Us</a>
                             <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Our Services</a>
-                            <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right me-2"></i>Meet The Team</a>
                             <a class="text-white-50" href="#"><i class="fa fa-angle-right me-2"></i>Contact Us</a>
                         </div>
                     </div>
